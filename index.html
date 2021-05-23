@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Page title -->
+      <title>Болзоо</title>
+      <!--[if lt IE 9]>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <!-- Icon fonts -->
+      <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="fonts/glyphicons/bootstrap-glyphicons.css" rel="stylesheet" type="text/css">
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700i" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i" rel="stylesheet" type="text/css">
+      <!-- Style CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- Plugins CSS -->
+      <link rel="stylesheet" href="css/plugins.css">
+      <!-- Color Style CSS -->
+      <link href="styles/lavender.css" rel="stylesheet">
+      <!-- Favicons-->
+      <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+      <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+      <style>
+         .random-idea-modal {
+            display: none;
+            position: fixed;
+            z-index: 99999;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+         }
+         .random-idea-modal .random-idea-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid rgba(0,0,0,0.3);
+         }
+         .random-idea-content .idea-title {
+            padding-right: 20px;
+         }
+         /* The Close Button */
+         .close {
+            color: rgba(0, 0, 0, 0.8);
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 15px;
+         }
+
+         .close:hover,
+         .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+         }
+      </style>
+   </head>
+   <body id="page-top" data-spy="scroll" data-target=".navbar-custom">    
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="spinner">
+            <div class="bounce1"></div>
+         </div>
+      </div>
+      <!-- Preloader ends --> 
+
+      <!-- section: intro--> 
+      <section id="intro" class="container-fluid">
+         <!-- parallax ornament -->
+         <div class="ornament1 hidden-sm hidden-xs hidden-md"
+            data-100="transform:translatey(150%);"
+            data-center-center="transform:translatey(-10%);">
+            <!-- illustration path in the color template CSS -->
+         </div>
+         <!--/ornament 1-->
+         <!-- Background blurred images -->
+         <div class="photowall">
+            <div class="col-md-4 margin1">
+               <img src="https://ub.life/files/898a3c3c-395f-4004-aaa4-a7edd21205c3/68f1697bc269fecdcc9f960c14c36726.jpg" alt="" class="rotate1 img-photo img-responsive">
+            </div>
+            <!-- /col-md-4 -->
+            <div class="col-md-4  col-md-offset-4">
+               <img src="https://ub.life/files/898a3c3c-395f-4004-aaa4-a7edd21205c3/c5493eb1c2bb41db2c018b2f6eaaa589.jpg" alt="" class="rotate2 img-photo img-responsive">
+            </div>
+            <!-- /col-md-4 -->
+         </div>
+         <!-- Main Picture -->
+         <div class="main-picture col-md-6 col-centered"
+            data-100="margin-top:0px;transform: rotate(4deg);"
+            data-center-center="margin-top:50px;transform: rotate(-10deg);">
+            <!-- image-->
+            <img src="https://ub.life/files/898a3c3c-395f-4004-aaa4-a7edd21205c3/4f8aabd0a2b4c85aae22e29173b01b93.png" alt="" class="img-photo img-responsive">
+         </div>
+         <!--/main picture-->
+         <div class="intro-heading col-md-12 text-center" data-0="opacity:1;"
+            data--100-start="transform:translatey(0%);"
+            data-center-bottom="transform:translatey(30%);">
+            <h1>Болзооны санаа</h1>
+            <div class="page-scroll">
+               <a href="#date"><h5 class="margin1 text-ornament">Нэг санаа сугалах</h5></a>
+            </div>
+         </div>
+         <!-- /col-md-6-->
+      </section>
+      <!-- /section ends -->
+      <!-- Section: Date -->
+      <section id="date">
+         <!-- parallax ornaments -->
+         <div class="ornament2 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"
+            data-100="transform:translatex(0%);"
+            data-center-center="transform:translatex(90%);">
+            <!-- illustration path in the color template CSS -->
+         </div>
+         <div class="ornament3 hidden-sm hidden-xs hidden-md" data-0="opacity:1;"
+            data-100="transform:translatex(80%);"
+            data-center-center="transform:translatex(30%);">
+            <!-- illustration path in the color template CSS -->
+         </div>
+         <!-- /ornament3 -->
+         <!-- container -->
+         <div class="container">
+            <div class="row">
+               <!-- well starts-->
+               <div class="well col-md-10 col-md-offset-1 text-center">
+                  <div class="section-heading">
+                     <h2>Хэрэгжүүлэх сонирхолтой болзооны <span class="ideasCount"></span> САНАА</h2>
+                     <!-- divider -->
+                     <div class="hr"></div>
+                  </div>
+                  <!--/section heading -->
+                  <!-- <h5 class="margin1">Please RSVP before 15th January 2022</h5> -->
+                  <p>
+                     Та хань ижилтэйгээ болзооны төлөвлөгөөгөө гаргахаар зэхэж байна уу?
+                     <br>
+                     Тэгвэл та доорх хөгжилтэй, сонирхолтой, бяцхан "романтик" жагсаалтаас санаа аваарай. 
+                     <br>
+                     Эсвэл та "Сугалах" товч дээр дарж өөртөө нэгийг сугалж болно.
+                  </p>
+                  <!-- /margin1-->
+                  <a href="#randomIdea" class="btn" id="randomIdeaBtn">Сугалах</a>
+                  <!-- /page-scroll -->
+               </div>
+               <!-- /well-->
+            </div>
+            <!-- /row-->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- /section ends -->
+      <!-- section:ideas -->
+      <section id="ideas">
+         <div class="container">
+            <div class="section-heading">
+               <!-- divider -->
+               <div class="hr"></div>
+            </div>
+            <!-- /section-heading -->
+            <!-- Polaroids -->
+            <div class="row">
+               <ul id="story-carousel" class="polaroids owl-carousel margin1">
+               </ul>
+               <!-- /ul-polaroids --> 
+            </div>
+            <!-- /row-fluid --> 
+         </div>
+         <!-- /container-->
+      </section>
+      <!-- /section ends -->
+
+      <div class="random-idea-modal section-heading" id="randomIdeaModal">
+         <div class="random-idea-content col-md-4 col-centered">
+            <div class="well">
+               <span class="close">&times;</span>
+               <h5 id="randomIdeaTitle" class="idea-title"></h5>
+               <p id="randomIdeaDesc"></p>
+            </div>
+         </div>
+      </div>
+
+      <!-- Footer -->		
+      <footer>
+         <div class="container">      
+            <!-- Credits-->
+            <div class="credits col-md-12 text-center">
+               © 2021 Бүх эрх хуулиар хамгаалагдсан - Хөгжүүлсэн <a href="http://github.com/acepmon">Acepmon</a>
+               <!-- Go To Top Link -->
+               <div class="page-scroll hidden-sm hidden-xs">
+                  <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+               </div>
+            </div>
+            <!-- /credits -->
+         </div>
+         <!-- /.container -->
+      </footer>
+      <!-- /footer ends -->
+      <!-- Core JavaScript Files -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Ideas -->
+      <script src="js/ideas.js"></script>
+      <!-- Main Js -->
+      <script src="js/main.js"></script>
+      <!-- RSVP form -->
+      <script src="js/rsvp.js"></script>
+      <!--Other Plugins -->
+      <script src="js/plugins.js"></script>
+      <!-- Prefix free CSS -->
+      <script src="js/prefixfree.js"></script>
+      <!-- Open Street maps-->
+      <script src="js/map.js"></script>
+   </body>
+</html>
